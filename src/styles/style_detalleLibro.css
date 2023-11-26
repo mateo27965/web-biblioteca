@@ -1,0 +1,382 @@
+@import "./cambio_color.css";
+
+
+#contenedor_cita{
+    position: relative;
+}
+
+#citas{
+    color: rgb(0, 0, 1);
+    position: absolute;
+    text-align:center;
+    /* M3/title/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    left: 0%;
+    top: -40px;
+
+}
+#cuerpo_citas{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 500px;
+    flex-shrink: 0;
+    background: #ffffff;
+    margin: 20px;
+}
+
+#contendor_ListItem{
+    position: relative;
+    width: 97%;
+    height: 70%;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--color-secundario);
+    top: 4%;
+    left: -1%;
+}
+
+#state-layer-tituloLibro{
+    display: flex;
+    padding: 12px 24px 12px 16px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+#ListItem{
+    position: relative;
+}
+
+#nombre-dl{
+    color: white;
+    text-align: center;
+    /* M3/title/medium */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px; /* 150% */
+    display: flex;
+    width: 40px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#BuildingblockeCircular{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--color-primario);
+}
+
+#circuloConInicial
+{
+    display: flex;
+    height: 64px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#state-layer-tituloLibro{
+    display: flex;
+    padding: 12px 24px 12px 16px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+
+#titulo_libro_dl{
+    align-self: stretch;
+    color: var(--m-3-sys-light-on-surface, #1D1B20);
+    /* M3/body/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+#autor_libro_dl{
+    color: var(--color-primario);
+
+    /* M3/body/medium */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+#cont_libr_dl{
+    position: relative;
+
+}
+#imglibro{
+    flex-shrink: 0;
+    position: absolute;
+    left: 2.5%;
+    
+}
+#contenedor_texto-dl{
+    position: relative;
+
+}
+#texto-dl{
+    position: absolute;
+    width: 626px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    right: 20%;
+    top: -15px;
+
+}
+
+#contenedor_editorial-dl{
+    position: absolute;
+    left: 83%;
+}
+
+#editorial-dl-text{
+    color: #636262;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 153.846% */
+
+}
+
+#editorial-name-dl{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    width: 173px;
+
+}
+#todo-edit{
+    position: relative;
+}
+
+#text-topicos{
+    position: relative;
+}
+
+#topi{
+    color: #636262;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 153.846% */
+    position: absolute;
+    top: 170px;
+    left: 2.5%;
+}
+
+#todosTopicos{
+    position: absolute;
+    display: flex;
+    top: 280px;
+    left: 27px;
+    width: max-content;
+    gap: 6px;
+}
+
+#top1{
+    color: var(--m-3-sys-light-on-surface-variant, #49454F);
+    text-align: center;
+    /* M3/label/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    width: 141px;
+    height: 20px;
+    
+}
+#top2{
+    color: var(--m-3-sys-light-on-surface-variant, #49454F);
+    text-align: center;
+    /* M3/label/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    width: 141px;
+    height: 20px;
+    
+}
+
+.topi-stateLayer{
+    display: inline-flex;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 8px;
+    border: 1px solid var(--m-3-sys-light-outline, #79747E);
+
+    
+}
+
+#contenedor_topi1{
+    display: flex;
+    float: left;
+}
+
+#total-reserva{
+    position: relative;
+    width: 90%;
+    height: 43%;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    top: 140%;
+    left: -1%;
+
+}
+#reservar-dl{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 142.857% */
+    padding-bottom: 8px;
+}
+
+#text_field_fecha-dl{
+
+    display: flex;
+    width: 312px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 4px 4px 0px 0px;
+    position: absolute;
+    top: 400%;
+}
+#inputDate{
+    color: var(--m-3-sys-light-on-surface, #1D1B20);
+    /* M3/body/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    width: 275px;
+}
+#ddmmyyyy{
+    color: var(--m-3-sys-light-on-surface-variant, #49454F);
+
+    /* M3/body/small */
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    position: absolute;
+    top: 82%;
+    left: 6%;
+}
+
+
+#bReserv{
+    color: var(--m-3-sys-light-on-primary, #FFF);
+    text-align: center;
+    /* M3/label/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px; /* 142.857% */
+    background: var(--m-3-sys-light-primary, #6750A4);
+    display: flex;
+    padding: 10px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 25px;
+    border: none;
+    position: absolute;
+    top: 120px;
+    right: 82.5%;
+    
+}
+#bReserv:hover {
+    background-color: #a272ce; /* Cambia el color de fondo al pasar el ratón */
+}
+#contenedor_breservar{
+    position: relative;
+}
+
+
+#dispoNodispo{
+    color: var(--color-secundario);
+    text-align: center;
+
+    /* M3/label/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px; /* 142.857% */
+}
+#dispo-nodispo{
+    padding: 6px 12px;
+    justify-content: center;
+    gap: 8px;
+    display: inline-flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--color-primario);
+    position: absolute;
+    left: 90%;
+    right: 1%;
+    top:6%;
+}
+
+
+.col-span-3-2{
+    position: relative;
+
+}
+
+#todooo{
+    position:absolute;
+    left: 380px;
+    bottom: 196px;
+
+}

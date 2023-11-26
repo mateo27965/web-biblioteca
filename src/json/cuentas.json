@@ -1,0 +1,38 @@
+[
+	{
+		"id": "0",
+		"tipo": "admin",
+		"nombres": "soyadmin",
+		"apellidos": "administrador",
+		"tipo_documento": "dni",
+		"nro_documento": "77777777",
+		"correo": "admin@ulima.edu.pe",
+		"contrasenha": "admin",
+		"foto": "/Juan.png",
+		"idioma": "Ingles",
+		"prefijo": "Sr",
+		"color": "#7785bb"
+	},
+	{
+		"id": "1",
+		"tipo": "user",
+		"nombres": "Juan Carlos",
+		"apellidos": "Bodoque",
+		"tipo_documento": "dni",
+		"nro_documento": "77777777",
+		"correo": "user@ulima.edu.pe",
+		"contrasenha": "user",
+		"foto": "/juancarlos.jpg"
+	},
+	{
+		"id": "2",
+		"tipo": "user",
+		"nombres": "Tulio",
+		"apellidos": "Trivino",
+		"tipo_documento": "dni",
+		"nro_documento": "88888888",
+		"correo": "user2@ulima.edu.pe",
+		"contrasenha": "user2",
+		"foto": "/tulio.jpg"
+	}
+]

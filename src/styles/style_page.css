@@ -1,0 +1,102 @@
+@import "./cambio_color.css";
+
+#bienvenida{
+    color:black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 28px;
+    text-align: justify;
+    width: 300px;
+    height: 28px;
+    margin-bottom: 11px;
+}
+.rectangulo{
+    width: 1084px;
+    height: 264px;
+    background: var(--color-secundario);
+    margin-bottom: 11px;
+}
+.libro{
+    width: 470px;
+    height: 101px;
+    border-radius: 12px;
+    border-color: rgb(165, 165, 165);
+    border-width: 1px;
+    border-style: solid;
+    background: #ffffff;
+    margin-left: 22px;
+    margin-bottom: 1%;
+}
+.contenedorSubtitulo{
+    align-items: center;
+    width: 165px;
+    height: 28px;
+    padding-top: 11px;
+    margin-left: 22px;
+}
+.subtitulo{
+    color:black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 28px;
+}
+.circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primario);
+    margin-top: 37%;
+    margin-left: 20%;
+}
+.inicial{
+    font-weight: 500;
+    size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 15%;
+    color: #FEF7FF;
+}
+
+.imagenLibro {
+    width: 80px; /* Ancho del contenedor */
+    height: 101px; /* Alto del contenedor */
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: hidden; /* Esto oculta cualquier parte de la imagen que se salga del contenedor */
+    justify-content: flex-end; /* Alinea la imagen a la derecha */
+
+}
+  
+.imagenLibro img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 100%; /* El alto se ajustará automáticamente según la relación de aspecto original */
+}
+
+.contenedorTituloLibro{
+    width: 302px;
+    height: 48px;
+    margin-top: 5%;
+}
+.tituloLibro{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 24px;
+    font-size: 16px;
+}
+.contenedorInfoLibro{
+    width: 302px;
+    height: 20px;
+}
+.infoLibro{
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.verTodo{
+    margin-left: 90%;
+    margin-top: 5%;
+}
+  

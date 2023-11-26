@@ -1,0 +1,181 @@
+
+#titulo_registro1{
+    position: relative;
+}
+
+#titulo_registro{
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family:"Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top:-250px;
+    left: -240px;
+
+}
+
+#cuerpo_registro{
+    width: auto;
+    background: #FFF;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    height: 100vh; /* Tamaño de la ventana del navegador */
+    
+}
+
+#subtitulo_registro1{
+    position: relative;
+}
+
+#subtitulo_registro{
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px; /* 83.333% */
+    position: absolute;
+    top: -180px;
+    left: -110px;
+    width: 240px;
+    height: 20px;
+}
+
+#formulario_registro{
+    width: 745px;
+    height: 370px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+#text_datosPersonales{
+    color: #6750A4;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    position: absolute;
+    bottom: 110% ;
+}
+#text_datosCuenta{
+    color: #6750A4;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    position: absolute;
+    bottom: 113% ;
+}
+
+#tipoDoc{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+#nroDoc{
+
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+#apellidos{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+#nombres{
+
+    border: none;
+    background: transparent;
+    outline: none;
+}
+#email{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+#password{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+#nuevaPass{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+#alinearBoton{
+    display: flex;
+    width: 291px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    background: var(--m-3-sys-light-secondary-container, #E8DEF8);
+}
+
+#bReg{
+    color: var(--m-3-sys-light-on-secondary-container, #1D192B);
+    text-align: center;
+    /* M3/label/large */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px; /* 142.857% */
+    background: var(--m-3-sys-light-secondary-container, #E8DEF8);
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 25px;
+    background: var(--m-3-sys-light-secondary-container, #E8DEF8);
+    border: none;
+    padding-left: 117px;
+    padding-right: 117px;
+    position: absolute;
+    right: 0%;
+    top: 21px;
+}
+#bReg:hover {
+    background-color: #ddceeb; /* Cambia el color de fondo al pasar el ratón */
+}
+
+#todo_datPers{
+    position: absolute;
+    left: 0%;
+    bottom: 30%;
+}
+
+#todo_datCuenta{
+    position: absolute;
+    left: 63%;
+    bottom: 51%;
+}

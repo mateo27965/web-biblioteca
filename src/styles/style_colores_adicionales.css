@@ -1,0 +1,29 @@
+@import "./cambio_color.css";
+
+.color_fondo_primario{
+    background-color: var(--color-primario);
+}
+
+.color_fondo_secundario{
+    background-color: var(--color-secundario);
+}
+
+.color_letra_primario{
+    color: var(--color-primario);
+}
+
+.color_letra_secundario{
+    color: var(--color-secundario);
+}
+
+.color_borde_primario{
+    border-color: var(--color-primario);
+}
+
+.color_borde_secundario{
+    border-color: var(--color-secundario);
+}
+
+.color_letra_blanco{
+    color: white;
+}

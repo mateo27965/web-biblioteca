@@ -1,0 +1,127 @@
+@import "./cambio_color.css";
+
+
+
+#cont2-masrecientes{
+    position: absolute;
+    right: 3%;
+    bottom: -50px;
+}
+
+#retro {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+    color: #fff;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Estilo al pasar el cursor para el botón con ID retroMasReciente */
+  #retro:hover {
+      background-color: var(--color-secundario);
+      color:black;
+  }
+  #retro:disabled {
+    background-color: #fff;
+    cursor: default;
+    color: var(--color-primario);
+}
+
+  #avanzar {
+    background-color: var(--color-primario);
+    color: #fff;
+    border-color: var(--color-primario);
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Estilo al pasar el cursor para el botón con ID retroMasReciente */
+  #avanzar:hover {
+    background-color: var(--color-secundario);
+    color:black;
+  }
+
+  #avanzar:disabled {
+    background-color: #fff;
+    cursor: default;
+    color: var(--color-primario);
+}
+
+  #total1{
+    font-weight: bold;
+  }
+
+#cont2-1-masrecientes{
+    position: absolute;
+    left: 2.5%;
+    top: 20px;
+}
+
+
+
+#cont-proximos{
+    position: relative;
+}
+
+#cont1-proximos{
+    position: absolute;
+    right: 3%;
+    bottom: -50px;
+}
+
+#cont2-proximos{
+    position: absolute;
+    left: 2.5%;
+    top: 20px;
+}
+
+#cont-maspedidos{
+    position: relative;
+}
+
+#cont1-maspedidos{
+    position: absolute;
+    right: 3%;
+    bottom: -50px;
+}
+
+#cont2-maspedidos{
+    position: absolute;
+    left: 2.5%;
+    top: 20px;
+}
+
+#boton_eliminar{
+    background-color: var(--color-primario);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    transition-duration: 0.3s;
+}
+
+#boton_eliminar:hover {
+    background-color: var(--color-primario);
+    transform: scale(1.05);
+  }
+
+
+#cont-result{
+  position: relative;
+
+}
+
+  #cont-resultados{
+    position: absolute;
+    right: 280px;
+    top: 20px;
+    width: 130px;
+  }
